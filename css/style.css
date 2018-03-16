@@ -259,8 +259,21 @@ footer li a:hover{
 	border-top: 1px solid #dddfe2;
 	margin: 10px 0 8px;	
 }
-#footer .links li{
+footer .links li{
 	padding-right: 16px;
 	margin-bottom: 2px;
 	position: relative;
+}
+
+.ad-choices{
+	display: inline-block;
+	background: url('../images/link-logo.png') no-repeat -19px -83px;
+	width: 12px;
+	height: 12px;;
+	position: absolute;
+	top: 1px;
+	right: 2px;
+}
+.links li:nth-child(28){
+	margin-right: 16px;
 }
