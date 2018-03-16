@@ -252,3 +252,10 @@ footer li a:hover{
 .more-lang:hover{
 	background-color: #ececec;
 }
+.languages::after{
+	content: "";
+	display: block;
+	width: 100%;
+	border-top: 1px solid #dddfe2;
+	margin: 10px 0 8px;	
+}
