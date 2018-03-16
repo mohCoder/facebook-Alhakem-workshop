@@ -1,0 +1,209 @@
+/* CSS Document */
+body{
+	margin: 0;
+}
+
+#header{
+	width: 100%;
+	min-width: 980px;
+	height: 82px;
+	background-color: #3b5998;
+	background : linear-gradient (#4e69a2,#3b5998);
+	border-bottom: 1px solid #133783;
+}
+.container {
+	width: 980px;
+	height: auto;
+	margin: 0 auto;
+	overflow: auto;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+#logo{
+	display: block;
+	width: 170px;
+	height: 34px;
+	background-image: url(../images/logo.png);
+	background-position: 0 0;
+	margin-top: 30px;
+	text-indent: -100px;
+	overflow: hidden;
+}
+.login-box{
+	width: auto;
+	height: 82px;
+	padding-top: 13px;
+	float: left;
+	margin-left: 15px;
+	box-sizing: border-box;
+
+}
+.login-box label, .login-box a{
+	font-family: Arial;
+	font-size: 12px;
+	padding-left: 1px;
+}
+.login-box label{
+	color: #fff;
+}
+.login-box a{
+	color: #9cb4d8;
+	text-decoration: none;
+}
+.login-box input[type=email], .login-box input[type=password]{
+	width: 142px;
+	height: 17px;
+	font-size: 12px;
+	border: 1px solid #1d2a5b;
+	margin-top:4px;
+	padding: 2px;
+	margin-bottom: 2px;
+
+}
+.login-box input[type=submit]{
+	background-color: #4267b2;
+	border: 1px solid #29487d;
+	color: #fff;
+	height: 24px;
+	padding: 2px 6px;
+	font-size: 12px;
+	margin-top: 22px;
+	border-radius: 2px;
+	font-weight: bold;
+	line-height: 18px;
+	cursor: pointer;
+}
+.login-box input[type=submit]:hover{
+	background-color: #365899;
+}
+.login-box a:hover{
+	text-decoration: underline;
+}
+input: focus{
+	outline: none;
+}
+#main{
+	width: 100%;
+	min-width: 980px;
+	height: 630px;
+	background-color: #fff;
+	background: linear-gradient(#fefefe,#d3d8e8); 
+}
+.discription {
+	width: 450px;
+	font-size: 20px;
+	font-family: Arial;
+	color: #0e385f;
+	font-weight: bold;
+	margin-top: 40px;
+	line-height: 29px;
+}
+.float-left img{
+	width: 537px;
+	height: 195px;
+}
+.float-right table{
+	width: 400px;
+	font-family: Arial;
+}
+.float-right table td{
+	padding: 4px;
+	width: 50%;
+}
+.float-right table input[type=text],
+.float-right table input[type=email],
+.float-right table input[type=password]{
+	width: 100%;
+	border:1px solid #bdc7d8;
+	border-radius: 5px;
+	padding: 8px 10px;
+	font-size: 18px;
+	box-sizing: border-box;
+}
+.float-right table select{
+	font-size: 13px;
+	height: 30px;
+	padding: 5px 4px;
+	border-color: #bdc7d8;
+}
+.float-right table select:nth-of-type(2),
+.float-right table select:nth-of-type(3){
+	margin-left: -5px;
+}
+.float-right h2{
+	font-size: 36px;
+	color: #333;
+	margin: 17px auto 0;
+}
+.float-right p{
+	color: #777;
+	font-size: 11px;
+	width: 316px;
+	line-height: 14px;
+}
+.float-right span{
+	color: #1d2129;
+	font-size: 17px;
+}
+.float-right table div{
+	display: inline-block;
+	color: #1d2129;
+	font-size: 18px;
+	padding: 5px 10px 0 3px;
+}
+.float-right table input[type=submit]{
+	background: linear-gradient(#67ae55, #578843);
+	background-color: #69a74e;
+	box-shadow: inset 0 1px 1px #a4e388;
+	border: 1px solid #3b6e22;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	text-shadow: 0 1px 2px rgbq(0,0,0,.5);
+	min-width: 194px;
+	padding: 7px 20px;
+	text-align: center;
+	font-size: 19px;
+	font-weight: bold;
+}
+.float-right table tr:nth-of-type(3) td{
+	padding-top: 15px;
+}
+.float-right table tr:nth-of-type(5) td{
+	padding-bottom: 15px;
+}
+.float-right table tr:nth-of-type(7) a,
+.float-right table a{
+	display: inline-block;
+	font-size: 11px;
+	
+	color: #365899;
+	cursor: pointer;
+	text-decoration: none;
+	line-height: 14px;
+}
+.float-right table tr:nth-of-type(7) a:hover,
+.float-right table a:hover{
+	text-decoration:underline;
+}
+.float-right table tr:last-of-type p{
+	border-top: 1px solid #dddfe2;
+	color: #666;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding-top: 15px;
+	width: auto;
+}
+.float-right table tr:last-of-type p a{
+	font-size: 13px;
+	font-weight: bold;
+
+}
+.float-right table input[type=submit]:hover{
+	background: linear-gradient(#79bc64, #578843);
+}
