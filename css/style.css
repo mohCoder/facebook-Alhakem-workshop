@@ -277,3 +277,10 @@ footer .links li{
 .links li:nth-child(28){
 	margin-right: 16px;
 }
+
+.copy-rights{
+	margin-top: 20px;
+	font-family: Arial;
+	font-size: 11px;
+	color: #737373;
+}
