@@ -234,3 +234,21 @@ footer li a{
 footer li a:hover{
 	text-decoration: underline;
 }
+.more-lang{
+	display: block;
+	padding: 4px 9px;
+	background-color: #f6f7f9;
+    border:1px solid #ced0d4;
+    color: #4b4f56;
+	border-radius: 2px;
+    transition: background-color 0.2s; /*هذا الكود سيجعل لون الخلفية يتغير بسلاسة عند مرور المأوس على الزر*/
+}
+.plus-icon{
+	display: block;
+	background: url('../images/icons.png') no-repeat -230px -71px;
+	width: 10px;
+	height: 10px;
+}
+.more-lang:hover{
+	background-color: #ececec;
+}
