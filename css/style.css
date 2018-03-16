@@ -207,7 +207,7 @@ input: focus{
 .float-right table input[type=submit]:hover{
 	background: linear-gradient(#79bc64, #578843);
 }
-#footer{
+footer{
 	width: 100%;
 	background: #fff;
 	height: auto;
@@ -218,11 +218,19 @@ ul{
     margin: 0;
     padding: 0;
 }
-#footer li {
+footer li {
 	font-family: Arial;
 	display: inline-block;
 	font-size: 12px;
 	color: #737373;
     padding-right: 8px;
 	vertical-align:middle; /*تقوم بتوسيط العناصر عمودياً*/
+}
+footer li a{
+	cursor: pointer;
+	color: #365899;
+	text-decoration: none;
+}
+footer li a:hover{
+	text-decoration: underline;
 }
