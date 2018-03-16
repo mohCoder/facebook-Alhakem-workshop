@@ -207,3 +207,9 @@ input: focus{
 .float-right table input[type=submit]:hover{
 	background: linear-gradient(#79bc64, #578843);
 }
+#footer{
+	width: 100%;
+	background: #fff;
+	height: auto;
+	padding: 30px 0;
+}
