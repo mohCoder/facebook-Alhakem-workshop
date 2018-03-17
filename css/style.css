@@ -125,7 +125,7 @@ input:focus{
 .float-right table select{
 	font-size: 13px;
 	height: 30px;
-	padding: 5px 4px;
+	padding: 5px 2px;
 	border-color: #bdc7d8;
 }
 .float-right table select:nth-of-type(2),
